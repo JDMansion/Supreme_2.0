@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+//Using Modulous 
+
 void rotateRightByK(int arr[], int n, int k) {
   k = k%n;
 
