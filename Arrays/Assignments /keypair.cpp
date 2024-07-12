@@ -12,7 +12,7 @@ using namespace std;
 
 //Key Pair
 
-bool keyPair(int arr[], int n, int x) {
+bool keyPair(int arr[], int n, int x) {    //T.C. O(n2)
     for(int i=0; i<n; i++) {
         for(int j=i+1; j<n; j++) {
             if(arr[i] + arr[j] == x)
@@ -22,7 +22,7 @@ bool keyPair(int arr[], int n, int x) {
     return false;
 }
 
-bool keyPairTwoPointerApproach(int arr[], int n, int x) {
+bool keyPairTwoPointerApproach(int arr[], int n, int x) {    //T.C. O(n)
     int l = 0;
     int h = n-1;
 
