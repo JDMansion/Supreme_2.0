@@ -2,6 +2,11 @@
 //Search an element x and return it's index as answer. 
 //Use exponential search technique, to descrease the time complexitiy, better than Binary Search.
 
+//Other common names of Exponential Search are:
+// 1. Doubling search
+// 2. Galloping search
+// 3. Struzik search
+
 int binarySearch(int arr[], int start, int end, int x) {
   while(start <= end) {
     int mid = start + (end - start)/2;
