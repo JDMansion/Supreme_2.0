@@ -52,3 +52,32 @@ int main() {
 
   cout << maxSawBladeHeight(trees, m) << endl;
 }
+
+
+//Brute Force
+// int main() {
+//   int arr[] = {20, 15, 10, 17};
+//   int m = 7;
+//   int n = sizeof(arr)/sizeof(int);
+
+//   int max = *max_element(arr, arr+n);
+//   int ans = -1;
+
+//   for(int i = 1; i <= max; i++) {
+//     int cutterLength = i;
+
+//     int sum = 0;
+//     int j = 0;
+//     while(j < n) {
+//       if(arr[j] > cutterLength) {
+//         sum = sum + (arr[j] - cutterLength);
+//       }
+//       j++;
+//     }
+//     if(sum == m) {
+//       ans = cutterLength;
+//       break;
+//     }
+//   }
+//   cout<<ans;
+// }
