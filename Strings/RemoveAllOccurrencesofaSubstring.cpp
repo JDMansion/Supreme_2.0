@@ -10,9 +10,12 @@ public:
     }
 };
 
+
 // 2nd Method : 
 // Here, we are using string as a stack to insert each character from a string, and check at the last of ans string if it matches with 
 // the part, then we delete those and continue till the end of string
+// T.C = O(n*m)     n = length of s; m = length of part
+// S.C = O(n)       n = length of s
 // class Solution {
 // public:
 //     string removeOccurrences(string s, string part) {
