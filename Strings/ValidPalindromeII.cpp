@@ -1,4 +1,6 @@
 // Valid Palindrome II   ( Leetcode : 680 )
+// T.C = O(N)    N = length of the string
+// S.C = O(1)
 
 class Solution {
 public:
