@@ -1,4 +1,6 @@
 // Decode the Message   ( Leetcode : 2325 )
+// T.C = O(K + M)    K = size of string key, M = size of string message
+// S.C = O(M)    M = size of string message
 
 class Solution {
 public:
