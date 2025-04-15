@@ -1,4 +1,4 @@
-
+//Minimum Amount of Time To Collect Garbage   ( Leetcode : 2391 )
 
 class Solution {
 public:
